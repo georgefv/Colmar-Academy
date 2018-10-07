@@ -1,0 +1,28 @@
+/* Universal Styles */
+
+html {
+  font-family: "Arial", sans-serif;
+  font-size: 50px;
+}
+
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+}
+
+.nav-company-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  display: flex;
+  font-size: 3rem;
+}
+
+.bibi {
+  color: green;
+}
