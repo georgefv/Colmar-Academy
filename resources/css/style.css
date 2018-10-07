@@ -153,7 +153,17 @@ font-weight: normal;
   width: 100%;
 }
 
-
+.learn-something span:hover {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(235, 235, 235, 1);
+  color: rgba(74, 74, 74, 1);
+  font-weight: 700;
+  padding: 1rem 0rem;
+  width: 100%;
+  text-decoration: none;
+  border: 2px solid rgba(74, 74, 74, 0.5);
+ }
 
 /* Learn Something Mobile */
 @media only screen and (max-width: 700px) {
@@ -404,6 +414,7 @@ font-weight: normal;
 
 .start-learning .txt-box {
   height: 12rem;
+  padding-right: 1.5rem;
 }
 
 .start-learning h2 {
@@ -544,12 +555,34 @@ font-weight: normal;
     width: 100%;
 }
 
+.fisma .txt-box {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
 .fisma .txt-box h2{
     margin-bottom: 1rem;
+    padding-right: 2rem;
+}
+
+.fisma .txt-box p{
+    padding-right: 2rem;
 }
 
 .now-and-then .txt-box h2{
   margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.now-and-then .txt-box {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.now-and-then .txt-box p{
+    padding-right: 2rem;
 }
 
 /* Thesis exhibit mobile*/
